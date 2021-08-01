@@ -1,0 +1,50 @@
+.registerLoginWrapper{
+    width: 80%;
+    display: flex;
+    margin: 3rem auto;
+}
+.registerLoginImg{
+    box-shadow: 0px 10px 10px 5px rgba(255,0,110,0.25);
+    -webkit-box-shadow: 0px 10px 10px 5px rgba(255,0,110,0.25);
+    -moz-box-shadow: 0px 10px 10px 5px rgba(255,0,110,0.25);
+}
+.navbar{
+    width: 100%;
+    background-image:linear-gradient(#00E0FF, #0185FF) ;
+    box-shadow: 0px 10px 10px 5px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0px 10px 10px 5px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 10px 10px 5px rgba(0,0,0,0.25);
+}
+.navbarWrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff ;
+}
+.navbarLogo{
+    font-size: 24px;
+    cursor: pointer;
+}
+.navbarLogo:hover{
+    color: rgb(238, 236, 236);
+}
+.navbarDetails{
+    display: flex;
+    align-items: center;
+}
+.navbarDetails h2{
+    cursor: pointer;
+}
+.navbarDetails h2:hover{
+    border-bottom: 0.5px solid #fff;
+}
+.navbarDetails h3{
+    margin-right: 2rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+.navbarDetails h3:hover{
+    border-bottom: 0.5px solid #fff;
+}

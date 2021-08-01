@@ -1,0 +1,61 @@
+.editData{
+    width: 80%;
+    height: 80vh;
+    background-color: #fff;
+    display: absolute;
+    z-index: 999;
+    box-shadow: 0px 10px 10px 5px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0px 10px 10px 5px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 10px 10px 5px rgba(0,0,0,0.25);
+}
+.editDataWrapper{
+    display: flex;
+    flex-direction: column;
+}
+.editDataWrapper .cancelButton{
+    display: flex;
+    align-self:flex-end;
+    margin-right: 2rem;
+}
+.cancelButton Button{
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    font-weight:700;
+    background-image:linear-gradient(#00E0FF, #0185FF);
+    border:none;
+    border-radius: 50px;
+}
+.editDataWrapper form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    margin-top: 3rem;
+}
+.editDataWrapper form input{
+    margin: 0.5rem 0;
+    padding: 1rem 0;
+    padding-left: 1rem;
+    border-radius: 10px;
+}
+.editDataWrapper form input:focus{
+    border: none;
+    border-radius: 0;
+    border-bottom:1px solid black;
+    outline: none;
+}
+.editButtonSubmit{
+    width: 40%;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    border-radius: 30px;
+    border:none;
+    background-image:linear-gradient(#00E0FF, #0185FF);
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}

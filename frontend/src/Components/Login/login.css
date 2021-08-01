@@ -1,0 +1,63 @@
+.login{
+    width: 31rem;
+    height: 45rem;
+    box-shadow: 0px 10px 10px 5px rgba(255,0,110,0.25);
+    -webkit-box-shadow: 0px 10px 10px 5px rgba(255,0,110,0.25);
+    -moz-box-shadow: 0px 10px 10px 5px rgba(255,0,110,0.25);
+    margin-left: 8rem;
+}
+.loginWrapper{
+    width: 70%;
+    margin: auto;
+    padding-top: 12rem;
+}
+
+.loginWrapper form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.loginWrapper form input{
+    height: 50px;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    border: 1px solid #555;
+}
+.loginWrapper form input:focus{
+    outline: none;
+    border:none;
+    border-bottom: 1px solid #555;
+    border-radius: 0;
+}
+.loginWrapper p{
+    width: 45%;
+    display: flex;
+    align-self: flex-end;
+    cursor: pointer;
+}
+.loginWrapper p:hover{
+    color: #FF006E;
+    opacity: 0.5;
+}
+.loginButton{
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 3rem;
+    border:none;
+    background-image: linear-gradient(#00E0FF, #0185FF);
+    font-size: 26px;
+    color: #fff ;
+    font-weight: 600;
+    cursor: pointer;
+}
+.loginButton:hover{
+    color: rgb(231, 230, 230);
+}
+.loginBackButton{
+    margin-top: 3rem;
+    margin-left: 5rem;
+    color: #FF006E;
+    opacity: 0.5;
+    cursor: pointer;
+}
