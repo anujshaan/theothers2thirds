@@ -25,6 +25,11 @@ export default function EditData({setEditButton,currentUser}) {
             await axios.post('/home/update/'+currentUser,newData);
             e.target.value=null;
             console.log('data sent');
+            name.current.value="";
+            AR.current.value="";
+            TR.current.value="";
+            PS.current.value="";
+            window.location.reload();
         }catch(e){
             console.log(e);
         }

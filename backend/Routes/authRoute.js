@@ -7,8 +7,8 @@ const dotenv =require('dotenv');
 let transporter = nodemailer.createTransport({
     service:'gmail',
     auth:{
-        user:process.env.USER,
-        pass:process.env.PASS
+        user:'mailtoonlinedashboard@gmail.com',
+        pass:'1990dashboardonline'
     }
 });
 
@@ -48,7 +48,7 @@ router.post('/register',async(req,res)=>{
                             to:[email],
                             subject:'welcome mail from online dashboard',
                             text:`Thankyou for registering on Online dashboard
-                                    your email is : ${email} and password is: ${password}`
+                                    your email is : ${username} and password is: ${password}`
                         };
 
                         transporter.sendMail(mailOptions,(err,data)=>{

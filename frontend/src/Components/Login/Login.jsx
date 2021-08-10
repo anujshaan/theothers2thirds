@@ -62,6 +62,7 @@ export default function Login({storage, setCurrentUser}) {
                 <ArrowBackIosIcon onClick={handleClick} className="loginBackButton"/>
                 <div className="loginWrapper">
                 <form onSubmit={handleForgot}>
+                    <h3>Forgot Password</h3>
                     <input type="email" ref={email} placeholder="Email address"/>
                     <button className="loginButton" type="submit">Submit</button>
                     {message && <p>Email and password sent to your email</p>}

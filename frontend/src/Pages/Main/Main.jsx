@@ -36,14 +36,9 @@ export default function Main({currentUser,storage,setCurrentUser}) {
                 {editButton && <EditData setEditButton={setEditButton} currentUser={currentUser}/>}
                 <div className="mainSearchBox"></div>
                 <div className="mainDonutGraph">
-                {companyData.map((val)=>{
-                    return (
-                            <div className="donutGraphcss">
-                                <p>{val.PRODUCT_NAME}</p>
-                                <DonutGraph profit={val.PROFIT_SHARE}  />
-                            </div>
-                    )}
-                )}
+                    <div className="donutGraphcss">
+                        <DonutGraph  companyData={companyData}/>
+                    </div>
                 </div>
                 <div className="mainBarGraph">
                       <Bargraph companyData={companyData}/>                      
