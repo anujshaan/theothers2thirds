@@ -14,7 +14,6 @@ export default function DonutGraph({companyData}) {
         data.push(newData);
     })
     
-    console.log(data);
     const COLORS = ["#0088FE", "#ffc300" ,"#008000","#d90429","#9d4edd","469d89"];
     return (
         <div className="donutGraph">
